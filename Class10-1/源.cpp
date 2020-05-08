@@ -174,7 +174,7 @@ int dftDemo() {
 
 	//为了imshow可以显示，归一化到0和1之间
 	normalize(magMat, magMat, 0, 1, NORM_MINMAX);
-	magMat = magMat * 255;
+	/*magMat = magMat * 255;*/
 
 	imshow("Input Image", srcMat);    // Show the result
 	imshow("spectrum magnitude", magMat);

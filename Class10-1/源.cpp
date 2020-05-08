@@ -306,5 +306,7 @@ int ifftDemo()
 
 int main()
 {
+	/*mouseROI();
+	dftDemo();*/
 	ifftDemo();
 }
